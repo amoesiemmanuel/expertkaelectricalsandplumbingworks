@@ -205,30 +205,30 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="text">
+                        <input type="hidden" name="access_key" value="d6180a85-9097-4180-aaee-fa37bd9eea12">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required />
+                                <input type="text" placeholder=" Your Name" name="name" required />
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required />
+                                <input type="text" placeholder="Your Email" name="email" required />
                             </div>
                         </div>
                         <div class="field subject">
-                            <input type="text" placeholder="Subject" required />
+                            <input type="text" placeholder="Subject"  name="Subject" required />
                         </div>
                         <div class="field textarea">
-                            <textarea name="" id="" cols="30" rows="10" 
+                            <textarea name="Query" class="contact-input"
                                 placeholder="Describe Query"
                                 required></textarea>
                         </div>
                         <div class="button">
-                            <button type="submit" 
-                                onclick="alert('Thanks for Submiting')">
+                            <button type="submit" >
                                 Send message
                             </button>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
